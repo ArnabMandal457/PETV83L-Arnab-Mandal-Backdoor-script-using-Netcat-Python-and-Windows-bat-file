@@ -75,7 +75,7 @@ This tool is designed to:
 ## Legal Disclaimer
 
 **This project is for educational and ethical use only.
-The creator takes no responsibility for misuse or unforeseen Rickroll (or any) damage.**
+The creator takes no responsibility for misuse or unforeseen Rickroll (or any) damage caused by the same.**
 
 
 ---
