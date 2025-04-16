@@ -1,0 +1,37 @@
+# MIT License
+
+Copyright (c) 2025 Arnab
+
+## Permission is granted, free of charge, to:
+
+- Use
+- Copy
+- Modify
+- Merge
+- Publish
+- Distribute
+- Sublicense
+- Sell copies of this Software
+
+And to permit others to do so, as long as they include the following notice:
+
+> **DISCLAIMER**  
+> The Software is provided "as is", without any warranties of any kind. Not even a warranty that the user won’t get pranked by Rick Astley.
+
+By using this software, you are agreeing to the terms of the **PookieSec** prank protocol.  
+If you experience an unexpected shutdown, popups, or Rickrolling—congratulations, you’ve been pranked!
+
+**Note:** This license applies only to the *educational prankware*. Please use responsibly. If you don’t like being pranked, please exit now and head for a safer, Rick-free environment.
+
+---
+
+## The Legal Stuff (So you don’t come after me)
+
+In no event shall the authors or copyright holders be liable for any **damage** (including, but not limited to, system crashes, unexpected Rickrolling, or spontaneous feelings of being "Never Gonna Give You Up") arising from the use of this Software.
+
+---
+
+**Remember:** Always prank responsibly and always include the following when distributing this code:
+
+```bash
+start https://www.youtube.com/watch?v=dQw4w9WgXcQ
