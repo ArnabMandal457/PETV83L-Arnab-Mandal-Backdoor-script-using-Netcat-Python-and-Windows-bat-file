@@ -1,4 +1,4 @@
-# PookiePrank: A Cute but Terrifying Cybersecurity Awareness Tool 🎀💀
+# PookiePrank: A Cute but Terrifying Cybersecurity Awareness Tool 💀🎀
 
 > *“I seek not thy leave, nor bend my will to thine approval for the prank.  
 > What must be done, I do — not by thy grace, but by mine own resolve.”*  
