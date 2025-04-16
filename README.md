@@ -48,3 +48,16 @@ This tool is designed to:
 4. Connect to the shell:
    ```bash
    nc64 -lvp 4444
+
+  ---
+
+## One Last Thing...
+
+> **IMPORTANT:** For this prank to work, **you and your target must be on the same network** (e.g., college Wi-Fi, LAN party, cursed hostel internet).  
+> Netcat operates over **local IP addresses** unless you're routing through public ports with port forwarding — which we’re *not doing here* (because jail is not part of the prank).
+
+So yeah — **same Wi-Fi = RickRoll access granted**.
+
+Stay stealthy, stay sassy.
+
+— *PookieSec Ops Out.*
