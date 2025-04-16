@@ -80,7 +80,7 @@ The creator takes no responsibility for misuse or unforeseen Rickroll (or any) d
 
 ---
 
-##Future Plans
+## Future Plans
 
 1. Add GUI launcher with meme themes
 
