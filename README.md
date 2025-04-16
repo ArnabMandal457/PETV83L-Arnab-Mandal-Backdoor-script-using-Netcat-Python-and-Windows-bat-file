@@ -48,8 +48,49 @@ This tool is designed to:
 4. Connect to the shell:
    ```bash
    nc64 -lvp 4444
-
+5. Enjoy responsibly (or face karmic doom).
   ---
+
+
+
+
+---
+
+## Responsible Pranking Guidelines
+
+1. No persistence (no startup or registry hacks).
+
+2. No firewall tampering.
+
+3. No data theft or spying.
+
+4. Always reveal the prank eventually.
+
+5. Use only on friends who won't yeet you into oblivion.
+
+
+
+---
+
+## Legal Disclaimer
+
+**This project is for educational and ethical use only.
+The creator takes no responsibility for misuse or unforeseen Rickroll (or any) damage.**
+
+
+---
+
+##Future Plans
+
+1. Add GUI launcher with meme themes
+
+2. Auto-cancel prank if user types a secret code
+
+3. PookieSec Dashboard™ for multi-prank coordination
+
+4. Add dancing ASCII Rick in the terminal
+
+
 
 ## One Last Thing...
 
