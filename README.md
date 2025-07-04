@@ -4,6 +4,8 @@
 > What must be done, I do — not by thy grace, but by mine own resolve.”*  
 > — **Arnab, 2025**
 
+
+PLEASE READ THE FULL DOCUMENTATION FOR THE BETTER UNDERSTANDING OF THE PROJECT.
 ---
 
 ## What Is This?
@@ -46,7 +48,7 @@ This tool is designed to:
 2. Send the masked download link using a shortened IP logger service.
 3. Wait for the target to run the file.
 4. Connect to the shell:
-   - This is the command that triggers the backdoor in our Window machine (Runs automatically on running the python file).
+   - This is the command that triggers the backdoor in our Window machine (Runs automatically on running the Python file).
    ```bash
    nc64 -lvp 4444 
 6. Enjoy responsibly (or face karmic doom).
