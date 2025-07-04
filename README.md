@@ -56,7 +56,27 @@ This tool is designed to:
   - For Windows
     ```bash
     nc64 <ip_address_of _the_target_machine> 4444
-    
+
+NOTE: 
+>You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan ove rthe local network
+>If you are on a virtual machine, perform an arp scan on your host machine.
+
+- For Wondows
+  ```bash
+  arp -a
+
+- For Linux
+  ```bash
+  sudo arp-scan --localhost
+  
+This will list all the IP addresses in a network and we have to find our target from this which can simply be done by an nmap scan
+
+```bash
+nmap <ip_address> 4444
+```
+
+
+
 6. Enjoy responsibly (or face karmic doom).
   ---
 
