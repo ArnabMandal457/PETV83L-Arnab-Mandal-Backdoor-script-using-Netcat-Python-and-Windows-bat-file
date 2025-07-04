@@ -152,6 +152,6 @@ The creator takes no responsibility for misuse or unforeseen Rickroll (or any) d
 
 So yeah — **same Wi-Fi = RickRoll access granted**.
 
-Stay stealthy, stay sassy.
+Stay stealthy, stay sassy. 😎🎀
 
 — *PookieSec Ops Out.*
