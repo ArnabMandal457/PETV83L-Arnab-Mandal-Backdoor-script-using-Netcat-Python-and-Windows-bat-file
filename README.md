@@ -74,7 +74,7 @@ If you are on a virtual machine, perform an arp scan on your host machine..
 This will list all the IP addresses in a network and we have to find our target from this which can simply be done by an nmap scan
 
 ```bash
-nmap <ip_address> 4444
+nmap -p 4444 <ip_address>
 ```
 
 
