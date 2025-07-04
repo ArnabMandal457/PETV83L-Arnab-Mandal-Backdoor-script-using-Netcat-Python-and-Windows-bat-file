@@ -49,11 +49,11 @@ This tool is designed to:
    nc64 -lvp 4444
    
 - **Attacker's Machine**.
-  - For Linux
+  - **For Linux**
     ```bash
     nc <ip_address_of _the_target_machine> 4444
   
-  - For Windows
+  - **For Windows**
     ```bash
     nc64 <ip_address_of _the_target_machine> 4444
     
