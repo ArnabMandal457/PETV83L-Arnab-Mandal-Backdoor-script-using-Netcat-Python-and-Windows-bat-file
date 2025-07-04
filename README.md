@@ -50,13 +50,12 @@ This tool is designed to:
    ```
 - The command attacjer needs to run in their machines.
   - For Linux
-   ```bash
+    ```bash
    nc <ip_address_of _the_target_machine> 4444
-   ```
+  
   - For Windows
     ```bash
     nc64 <ip_address_of _the_target_machine> 4444
-    ```
     
 6. Enjoy responsibly (or face karmic doom).
   ---
