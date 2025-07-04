@@ -60,26 +60,26 @@ This tool is designed to:
    - For windows users, you can download `netcat` tool from [this repository](https://github.com/int0x33/nc.exe/)
    - In Linux, the netcat comes preinstalled.
 
-NOTE:
-
-- You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan over the local network.
-
-- If you are on a virtual machine, perform an arp scan on your host machine..
-
-- For Wondows
-  ```bash
-  arp -a
-
-- For Linux
-  ```bash
-  sudo arp-scan --localhost
-  
-This will list all the IP addresses in a network and we have to find our target from this which can simply be done by an nmap scan
-
-```bash
-nmap -p 4444 <ip_address>
-```
-If we find the port number 4444 open for any IP address, it maybe our target machine. Just try to connect using the netcat command if its successful the we're in the machine.
+   NOTE:
+   
+   - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan over the local network.
+   
+   - If you are on a virtual machine, perform an arp scan on your host machine..
+   
+   - For Wondows
+     ```bash
+     arp -a
+   
+   - For Linux
+     ```bash
+     sudo arp-scan --localhost
+     
+   This will list all the IP addresses in a network and we have to find our target from this which can simply be done by an nmap scan
+   
+   ```bash
+   nmap -p 4444 <ip_address>
+   ```
+   If we find the port number 4444 open for any IP address, it maybe our target machine. Just try to connect using the netcat command if its successful the we're in the machine.
 
 
 6. Enjoy responsibly (or face karmic doom).
