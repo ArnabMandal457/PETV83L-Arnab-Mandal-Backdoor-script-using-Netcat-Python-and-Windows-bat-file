@@ -1,7 +1,7 @@
 # PookiePrank: A Cute but Terrifying Cybersecurity Awareness Tool 💀🎀
 
 
-PLEASE READ THE FULL DOCUMENTATION FOR THE BETTER UNDERSTANDING OF THE PROJECT AND HOW TO MAKE IT WORK ACTUALLY.
+**PLEASE READ THE FULL DOCUMENTATION TO FULLY UNDERSTAND THE PROJECT AND HOW TO MAKE IT ACTUALLY WORK.**
 ---
 
 ## Table of Contents
@@ -71,8 +71,10 @@ This tool is designed to:
     
    - Windows users can download `netcat` tool from [this repository](https://github.com/int0x33/nc.exe/)
    - In Linux, the netcat comes preinstalled.
+ 
+   ---
 
-   NOTE:
+   **NOTE:**
    
    - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan over the local network.
    
