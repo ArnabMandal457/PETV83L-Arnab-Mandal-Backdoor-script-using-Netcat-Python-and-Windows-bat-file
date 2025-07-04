@@ -57,9 +57,10 @@ This tool is designed to:
     ```bash
     nc64 <ip_address_of _the_target_machine> 4444
 
-NOTE: 
-You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan ove rthe local network
-If you are on a virtual machine, perform an arp scan on your host machine.
+NOTE:
+
+You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan ove rthe local network.
+If you are on a virtual machine, perform an arp scan on your host machine..
 
 - For Wondows
   ```bash
