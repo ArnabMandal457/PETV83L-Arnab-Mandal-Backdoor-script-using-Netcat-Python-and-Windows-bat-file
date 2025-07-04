@@ -13,7 +13,7 @@ It's a prank tool wrapped in charm — **cute on the outside, spooky on the insi
 
 - Uses `Netcat` for remote shell access (with full user control)
 - Disguised behind a friendly-looking Python CLI
-- Includes optional payloads like Rickrolling, shutdown timers, popups, etc.
+- A educational tool that puts a Windows OS to vulnerability (and attacks eventually if not taken care of).
 - Perfect for ethical demos, cybersecurity training, and… *light mischief*.
 
 ---
