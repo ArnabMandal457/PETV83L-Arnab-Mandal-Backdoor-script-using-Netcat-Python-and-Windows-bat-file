@@ -61,22 +61,22 @@ This tool is designed to:
 - **Attacker's Machine**.
   - **For Linux**
     ```bash
-    nc <ip_address_of _the_target_machine> 4444
+    nc <ip_address_of_the_target_machine> 4444
     ```
   
   - **For Windows**
     ```bash
-    nc64 <ip_address_of _the_target_machine> 4444
+    nc64 <ip_address_of_the_target_machine> 4444
     ```
     
-   - For windows users, you can download `netcat` tool from [this repository](https://github.com/int0x33/nc.exe/)
+   - Windows users can download `netcat` tool from [this repository](https://github.com/int0x33/nc.exe/)
    - In Linux, the netcat comes preinstalled.
 
    NOTE:
    
    - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan over the local network.
    
-   - If you are on a virtual machine, perform an arp scan on your host machine..
+   - If you are on a virtual machine, perform an arp scan on your host machine.
    
    - **For Windows**
      ```bash
