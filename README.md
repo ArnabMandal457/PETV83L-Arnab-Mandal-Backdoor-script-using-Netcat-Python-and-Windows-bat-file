@@ -59,9 +59,9 @@ This tool is designed to:
 
 NOTE:
 
-You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan ove rthe local network.
+- You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan over the local network.
 
-If you are on a virtual machine, perform an arp scan on your host machine..
+- If you are on a virtual machine, perform an arp scan on your host machine..
 
 - For Wondows
   ```bash
