@@ -56,7 +56,7 @@ This tool is designed to:
   - For Windows
     ```bash
     nc64 <ip_address_of _the_target_machine> 4444
-- For windows users, you can download `netcat` tool from the [here]{}
+- For windows users, you can download `netcat` tool from [this repository]{https://github.com/int0x33/nc.exe/}
 - In Linux, the netcat comes preinstalled.
 NOTE:
 
