@@ -4,6 +4,15 @@
 PLEASE READ THE FULL DOCUMENTATION FOR THE BETTER UNDERSTANDING OF THE PROJECT.
 ---
 
+## Table of Contents
+- [What Is This?](#what-is-this)
+- [Features](#features)
+- [Why?](#why)
+- [Usage](#usage)
+- [Responsible Pranking Guidelines](#responsible-pranking-guidelines)
+- [Legal Disclaimer](#legal-disclaimer)
+- [Future Plans](#future-plans)
+
 ## What Is This?
 
 **PookiePrank** is a lightweight "educational" program designed to demonstrate the importance of digital awareness through *strategic chaos*.  
@@ -11,7 +20,7 @@ It's a prank tool wrapped in charm — **cute on the outside, spooky on the insi
 
 - Uses `netcat` for remote shell access (with full user control)
 - Disguised behind a friendly-looking Python CLI
-- A educational project that puts a Windows OS to vulnerability (and attacks eventually if not taken care of).
+- An educational project that puts a Windows OS to vulnerability (and attacks eventually if not taken care of).
 - Perfect for ethical demos, cybersecurity training, and… *light mischief*.
 
 ---
@@ -66,13 +75,13 @@ This tool is designed to:
    
    - If you are on a virtual machine, perform an arp scan on your host machine..
    
-   - For Wondows
+   - **For Windows**
      ```bash
      arp -a
    
-   - For Linux
+   - **For Linux**
      ```bash
-     sudo arp-scan --localhost
+     sudo arp-scan --localnet
      
    This will list all the IP addresses in a network and we have to find our target from this which can simply be done by an nmap scan
    
