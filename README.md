@@ -76,18 +76,18 @@ This tool is designed to:
 
    **NOTE:**
    
-   - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `arp` scan over the local network.
+   - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `nmap` scan over the local network usinf the network id which can be obtained by the subnet mask and the ip address of your device.
    
-   - If you are on a virtual machine, perform an arp scan on your host machine.
+   - If you are on a virtual machine, it is recommended perform an nmap scan on your host machine since virtual machine results are not accurate.
    
-   - **For Windows**
+   - **For Windows in Zenmap**
      ```bash
-     arp -a
+     nmap -sn <network_address>
      ```
      
    - **For Linux**
      ```bash
-     sudo arp-scan --localnet
+     nmap -sn <network_address>
      ```
      
    This will list all the IP addresses in a network and we have to find our target from this. We can use the hit and trial method here by using the netcat command.
