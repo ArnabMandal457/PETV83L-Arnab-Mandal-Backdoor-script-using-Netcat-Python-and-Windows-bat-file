@@ -78,7 +78,7 @@ This tool is designed to:
    
    - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `nmap` scan over the local network usinf the network id which can be obtained by the subnet mask and the ip address of your device.
    
-   - If you are on a virtual machine, it is recommended perform an nmap scan on your host machine since virtual machine results are not accurate.
+   - If you are on a virtual machine, it is recommended to perform an nmap scan on your host machine since virtual machine results are not accurate.
    
    - **For Windows in Zenmap**
      ```bash
@@ -89,7 +89,11 @@ This tool is designed to:
      ```bash
      nmap -sn <network_address_in_cidr_format>
      ```
-     
+     For Example:
+
+     If your IP is `10.187.21.247` and subnet is `255.255.255.0`, then your network CIDR is `10.187.21.0/24`
+
+  
    This will list all the IP addresses in a network and we have to find our target from this. We can use the hit and trial method here by using the netcat command.
    
 
