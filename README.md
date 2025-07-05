@@ -91,7 +91,7 @@ This tool is designed to:
      ```
      For Example:
 
-     If your IP is `10.187.21.247` and subnet is `255.255.255.0`, then your network CIDR is `10.187.21.0/24`
+     If your IP is `192.168.10.247` and subnet is `255.255.255.0`, then your network CIDR is `192.168.10.0/24`
 
   
    This will list all the IP addresses in a network and we have to find our target from this. We can use the hit and trial method here by using the netcat command.
