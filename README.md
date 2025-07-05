@@ -93,9 +93,8 @@ This tool is designed to:
    This will list all the IP addresses in a network and we have to find our target from this. We can use the hit and trial method here by using the netcat command.
    
 
-  If port 4444 is open on any IP address, it may be our target machine.
+  If port 4444 is open on any IP address, and the netcat command is successful, you're in.
 
-  Try connecting using the Netcat command — if it’s successful, you're in.
 
 
 6. Enjoy responsibly (or face karmic doom).
