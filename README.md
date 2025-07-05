@@ -150,7 +150,9 @@ The creator takes no responsibility for misuse or unforeseen Rickroll (or any) d
 ## One Last Thing...
 
 > **IMPORTANT:** For this prank to work, **you and your target must be on the same network** (e.g., college Wi-Fi, LAN party, cursed hostel internet).  
+
 > Netcat operates over **local IP addresses** unless you're routing through public ports with port forwarding — which we’re *not doing here* (because jail is not part of the prank).
+
 > ⚠️ Antivirus Note:
 This project may be flagged by antivirus software due to its reverse shell functionality.
 However, during testing, no detection occurred on our system.
