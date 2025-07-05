@@ -90,11 +90,8 @@ This tool is designed to:
      sudo arp-scan --localnet
      ```
      
-   This will list all the IP addresses in a network and we have to find our target from this which can simply be done by an nmap scan
+   This will list all the IP addresses in a network and we have to find our target from this. We can use the hit and trial method here by using the netcat command.
    
-   ```bash
-   nmap -p 4444 <ip_address>
-   ```
 
   If port 4444 is open on any IP address, it may be our target machine.
 
