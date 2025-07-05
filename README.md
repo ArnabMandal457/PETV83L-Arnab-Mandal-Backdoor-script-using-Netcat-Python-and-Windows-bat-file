@@ -71,12 +71,13 @@ This tool is designed to:
     
    - Windows users can download `netcat` tool from [this repository](https://github.com/int0x33/nc.exe/)
    - In Linux, the netcat comes preinstalled.
+   - here by `4444` we mean the port on which we are creating the backdoor. and its `4444` in our case. If required, port number can be changed in the `backdoor.bat` file accordingly.
  
    ---
 
    **NOTE:**
    
-   - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `nmap` scan over the local network usinf the network id which can be obtained by the subnet mask and the ip address of your device.
+   - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `nmap` scan over the local network using the network id which can be obtained by the subnet mask and the ip address of your device.
    
    - If you are on a virtual machine, it is recommended to perform an nmap scan on your host machine since virtual machine results are not accurate.
    
@@ -150,6 +151,10 @@ The creator takes no responsibility for misuse or unforeseen Rickroll (or any) d
 
 > **IMPORTANT:** For this prank to work, **you and your target must be on the same network** (e.g., college Wi-Fi, LAN party, cursed hostel internet).  
 > Netcat operates over **local IP addresses** unless you're routing through public ports with port forwarding — which we’re *not doing here* (because jail is not part of the prank).
+> ⚠️ Antivirus Note:
+This project may be flagged by antivirus software due to its reverse shell functionality.
+However, during testing, no detection occurred on our system.
+Detection results can vary based on the antivirus engine, configuration, and updates.
 
 So yeah — **same Wi-Fi = RickRoll access granted**.
 
