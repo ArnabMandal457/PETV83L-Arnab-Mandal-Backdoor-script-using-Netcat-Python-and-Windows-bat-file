@@ -106,8 +106,11 @@ This tool is designed to:
 6. Enjoy responsibly (or face karmic doom).
   ---
 
-
-
+## Important Note
+> ⚠️ Antivirus Note:
+This project may be flagged by antivirus software due to its reverse shell functionality.
+However, during testing, no detection occurred on our system.
+Detection results can vary based on the antivirus engine, configuration, and updates.
 
 ---
 
