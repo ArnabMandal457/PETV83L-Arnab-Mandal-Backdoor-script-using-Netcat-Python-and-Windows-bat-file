@@ -89,7 +89,8 @@ This tool is designed to:
      ```bash
      nmap -sn <network_address_in_cidr_format>
      ```
-     For Example:
+     
+   - For Example:
 
      If your IP is `192.168.10.247` and subnet is `255.255.255.0`, then your network CIDR is `192.168.10.0/24`
 
