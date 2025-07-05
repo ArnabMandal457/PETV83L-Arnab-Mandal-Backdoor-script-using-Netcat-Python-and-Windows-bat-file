@@ -82,12 +82,12 @@ This tool is designed to:
    
    - **For Windows in Zenmap**
      ```bash
-     nmap -sn <network_address>
+     nmap -sn <network_address_in_cidr_format>
      ```
      
    - **For Linux**
      ```bash
-     nmap -sn <network_address>
+     nmap -sn <network_address_in_cidr_format>
      ```
      
    This will list all the IP addresses in a network and we have to find our target from this. We can use the hit and trial method here by using the netcat command.
