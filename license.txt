@@ -6,6 +6,13 @@
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 
+
+This project includes the original Netcat tool (nc64.exe), which is licensed under the GNU General Public License v2.0.
+
+Additional components, including custom Python scripts and batch files developed for the PookiePrank, are © 2025 Arnab and are also distributed under the GNU General Public License v2.0 (or any later version).
+
+Full GPL-2.0 license terms continue below.
+
 			    Preamble
 
   The licenses for most software are designed to take away your
