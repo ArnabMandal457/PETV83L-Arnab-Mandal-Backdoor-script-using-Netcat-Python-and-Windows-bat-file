@@ -50,7 +50,7 @@ This tool is designed to:
 ## Usage
 
 1. Host the executable and `netcat` folder.
-2. Send the masked download link using a shortened IP logger service.
+2. Send the masked download link using a shortened IP logger service or you can perform an `nmap` scan over the network.
 3. Wait for the target to run the file.
 4. Connect to the shell:
 - **On target machine (Runs automatically with python script i.e. `main.py`)**.
@@ -79,7 +79,7 @@ This tool is designed to:
    
    - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `nmap` scan over the local network using the network id which can be obtained by the subnet mask and the ip address of your device.
    
-   - If you are on a virtual machine, it is recommended to perform an nmap scan on your host machine since virtual machine results are not accurate.
+   - If you are on a virtual machine, it is recommended to perform an `nmap` scan on your host machine since virtual machine results are not accurate.
    
    - **For Windows in Zenmap**
      ```bash
