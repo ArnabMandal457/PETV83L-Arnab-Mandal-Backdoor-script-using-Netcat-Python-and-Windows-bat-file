@@ -2,6 +2,9 @@
 
 
 **PLEASE READ THE FULL DOCUMENTATION TO FULLY UNDERSTAND THE PROJECT AND HOW TO MAKE IT ACTUALLY WORK.**
+
+> ⚠️ **Disclaimer: This tool is for educational and ethical purposes only. Use responsibly. If you end up grounded, disowned, or expelled — that’s on you.**
+
 ---
 
 ## Table of Contents
@@ -13,9 +16,11 @@
 - [Legal Disclaimer](#legal-disclaimer)
 - [Future Plans](#future-plans)
 
-## What Is This?
+---
 
-**PookiePrank** is a lightweight "educational" program designed to demonstrate the importance of digital awareness through *strategic chaos*.  
+##  What Is This?
+
+**PookiePrank** is a lightweight "educational" tool designed to demonstrate the importance of digital awareness through *strategic chaos*.  
 It's a prank tool wrapped in charm — **cute on the outside, spooky on the inside**.
 
 - Uses `netcat` for remote shell access (with full user control)
@@ -25,7 +30,7 @@ It's a prank tool wrapped in charm — **cute on the outside, spooky on the insi
 
 ---
 
-## Features
+##  Features
 
 - **Silent Netcat Backdoor:** Triggers a reverse shell silently via batch file.
 - **User Distraction UI:** Friendly messages and fake interactions to lower suspicion.
@@ -35,24 +40,29 @@ It's a prank tool wrapped in charm — **cute on the outside, spooky on the insi
 
 ---
 
-## Why?
-
-Because **security through trauma** works.  
-This tool is designed to:
+##  Why?
+Because **people learn faster when they’re scared and slightly crying**.  
+This tool aims to:
 
 - Raise awareness of how easily social engineering works.
-- Show how reverse shells operate.
-- Make friends laugh *and* cry.
-- Be a conversation starter in any cybersecurity interview.
+- Demonstrate how social engineering + trust = disaster
+- Teach how reverse shells work in real-world setups
+- Serve as a meme-worthy portfolio project
+- Make your cybersecurity professors laugh nervously
+- Make friends laugh, cry, maybe scream into a pillow — and Rickroll them while you’re at it.
 
+  
 ---
 
-## Usage
+##  Usage
 
 1. Host the executable and `netcat` folder.
 2. Send the masked download link using a shortened IP logger service or you can perform an `nmap` scan over the network.
 3. Wait for the target to run the file.
 4. Connect to the shell:
+
+   Okay, we’re getting a bit technical here. Buckle up and read each line like your life depends on it — because if you mess this up and your friend gets sus, you might end up on the next ride in the prison bus.
+   
 - **On target machine (Runs automatically with python script i.e. `main.py`)**.
    ```bash
    nc64 -lvp 4444
@@ -71,8 +81,8 @@ This tool is designed to:
     
    - Windows users can download `netcat` tool from [this repository](https://github.com/int0x33/nc.exe/)
    - In Linux, the netcat comes preinstalled.
-   - here by `4444` we mean the port on which we are creating the backdoor. and its `4444` in our case. If required, port number can be changed in the `backdoor.bat` file accordingly.
- 
+   - here by `4444` we mean the port used for creating the backdoor — and in our case, it’s `4444`.. If required, port number can be changed in the `backdoor.bat` file accordingly.
+     
    ---
 
    **NOTE:**
@@ -104,36 +114,31 @@ This tool is designed to:
 
 
 6. Enjoy responsibly (or face karmic doom).
+   
   ---
 
-## Important Note
-> ⚠️ Antivirus Note:
-This project may be flagged by antivirus software due to its reverse shell functionality.
-However, during testing, no detection occurred on our system.
-Detection results can vary based on the antivirus engine, configuration, and updates.
+## Important Notes
+
+- 🧼 **No binaries included.** Clone, run, regret (but legally).
+- 🛡️ **Antivirus may yeet this into oblivion.** It’s not personal, just code business.
+- 🧪 **Virtual machines recommended** unless you enjoy living on the edge.
 
 ---
 
-## Responsible Pranking Guidelines
+## 🧼 Responsible Pranking Guidelines
 
-1. No persistence (no startup or registry hacks).
-
-2. No firewall tampering.
-
-3. No data theft or spying.
-
-4. Always reveal the prank eventually.
-
-5. Use only on friends who won't yeet you into oblivion.
-
-
+- ☑️ No persistence (we prank, not haunt)
+- ☑️ No data theft or spying (we ain’t the NSA)
+- ☑️ No real damage — only digital therapy sessions
+- ☑️ Reveal the prank soon (or your karma will download a reverse shell on you)
+- ☑️ Never use on someone without **consent** (seriously, don’t be that guy)
 
 ---
 
 ## Legal Disclaimer
 
-**This project is for educational and ethical use only.
-The creator takes no responsibility for misuse or unforeseen Rickroll (or any) damage caused by the same.**
+This project is for **educational purposes only**.  
+The creator is not responsible for any misuse, damage, or memes-gone-too-far caused by this script.
 
 
 ---
@@ -148,21 +153,36 @@ The creator takes no responsibility for misuse or unforeseen Rickroll (or any) d
 
 4. Add dancing ASCII Rick in the terminal
 
+---
 
+## One Last Thing…
 
-## One Last Thing...
-
-> **IMPORTANT:** For this prank to work, **you and your target must be on the same network** (e.g., college Wi-Fi, LAN party, cursed hostel internet).  
+> **IMPORTANT:** For this prank/educational tool to work, **you and your target must be on the same network** (e.g., college Wi-Fi, LAN party, cursed hostel internet).  
 
 > Netcat operates over **local IP addresses** unless you're routing through public ports with port forwarding — which we’re *not doing here* (because jail is not part of the prank).
+
+> If you run this on your professor, boss, or crush — we salute your bravery and recommend a lawyer.
+
 
 > ⚠️ Antivirus Note:
 This project may be flagged by antivirus software due to its reverse shell functionality.
 However, during testing, no detection occurred on our system.
 Detection results can vary based on the antivirus engine, configuration, and updates.
 
-So yeah — **same Wi-Fi = RickRoll access granted**.
+---
 
-Stay stealthy, stay sassy. 😎🎀
+## 👀 Hidden Bonus (for the real ones who scroll to the bottom)
+
+If you made it this far — congrats, legend.  
+You’re now officially certified in:
+
+- ✔️ Cyberprank Literacy  
+- ✔️ Netcat Nonsense Navigation  
+- ✔️ Surviving PookieSec Ops Training: Level 1  
+
+If you’ve ever Rickrolled someone (and confessed afterward),  
+you’ve earned your stripes, your badge, and possibly a cease-and-desist from IT.
+
+Stay chaotic, stay ethical. 💻💅
 
 — *PookieSec Ops Out.*
