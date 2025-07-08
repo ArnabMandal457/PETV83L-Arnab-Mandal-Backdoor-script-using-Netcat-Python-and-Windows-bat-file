@@ -4,6 +4,7 @@
 **PLEASE READ THE FULL DOCUMENTATION TO FULLY UNDERSTAND THE PROJECT AND HOW TO MAKE IT ACTUALLY WORK.**
 
 > 🚨 TL;DR: This tool is a local network educational reverse shell simulator designed to teach security awareness and social engineering vulnerabilities. No real exploitation. No persistence. No remote IP targeting.
+> 
 > ⚠️ **Disclaimer: This tool is for educational and ethical purposes only. Use responsibly. If you end up grounded, disowned, or expelled — that’s on you.**
 
 ---
