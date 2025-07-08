@@ -125,7 +125,7 @@ This tool aims to:
 
 ---
 
-## 🧼 Responsible Pranking Guidelines
+## Responsible Pranking Guidelines
 
 - ☑️ No persistence (we prank, not haunt)
 - ☑️ No data theft or spying (we ain’t the NSA)
