@@ -3,6 +3,7 @@
 
 **PLEASE READ THE FULL DOCUMENTATION TO FULLY UNDERSTAND THE PROJECT AND HOW TO MAKE IT ACTUALLY WORK.**
 
+> 🚨 TL;DR: This tool is a local network educational reverse shell simulator designed to teach security awareness and social engineering vulnerabilities. No real exploitation. No persistence. No remote IP targeting.
 > ⚠️ **Disclaimer: This tool is for educational and ethical purposes only. Use responsibly. If you end up grounded, disowned, or expelled — that’s on you.**
 
 ---
@@ -25,7 +26,7 @@ It's a prank tool wrapped in charm — **cute on the outside, spooky on the insi
 
 - Uses `netcat` for remote shell access (with full user control)
 - Disguised behind a friendly-looking Python CLI
-- An educational project that puts a Windows OS to vulnerability (and attacks eventually if not taken care of).
+- An educational simulation that demonstrates how **vulnerable behavior** (like running random executables) can lead to unauthorized access — shown through a safe local network demo.
 - Perfect for ethical demos, cybersecurity training, and… *light mischief*.
 
 ---
@@ -57,7 +58,7 @@ This tool aims to:
 ##  Usage
 
 1. Host the executable and `netcat` folder.
-2. Send the masked download link using a shortened IP logger service or you can perform an `nmap` scan over the network.
+2. Share the executable within a controlled test environment (e.g., local network or VM) with **explicit consent** of all parties involved. Never use anonymous link shorteners or tracking tools in real-world scenarios or you can perform an `nmap` scan over the network.
 3. Wait for the target to run the file.
 4. Connect to the shell:
 
@@ -107,9 +108,9 @@ This tool aims to:
 
   
    This will list all the IP addresses in a network and we have to find our target from this. We can use the hit and trial method here by using the netcat command.
-   
 
-  If port 4444 is open on any IP address, and the netcat command is successful, you're in.
+   Once the target (with prior consent) executes the demo script, you receive a reverse shell connection—simulating unauthorized access risks.
+
 
 
 
@@ -137,9 +138,9 @@ This tool aims to:
 
 ## Legal Disclaimer
 
-This project is for **educational purposes only**.  
-The creator is not responsible for any misuse, damage, or memes-gone-too-far caused by this script.
-
+- This project is for **educational purposes only**.  
+- The creator is not responsible for any misuse, damage, or memes-gone-too-far caused by this script.
+- This tool does not include persistence, data collection, remote access over public IPs, or any features beyond safe demo within private networks.
 
 ---
 
