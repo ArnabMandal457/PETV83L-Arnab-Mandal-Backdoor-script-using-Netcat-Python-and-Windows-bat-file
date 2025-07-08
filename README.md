@@ -13,6 +13,7 @@
 - [Features](#features)
 - [Why?](#why)
 - [Usage](#usage)
+- [Important Notes](#important-notes)
 - [Responsible Pranking Guidelines](#responsible-pranking-guidelines)
 - [Legal Disclaimer](#legal-disclaimer)
 - [Future Plans](#future-plans)
