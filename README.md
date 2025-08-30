@@ -24,7 +24,7 @@
 ##  What Is This?
 
 **PookiePrank** is a lightweight "educational" tool designed to demonstrate the importance of digital awareness through *strategic chaos*.  
-It's a prank tool wrapped in charm — **cute on the outside, spooky on the inside**.
+It's a prank tool wrapped in charm **cute on the outside, spooky on the inside**.
 
 - Uses `netcat` for remote shell access (with full user control)
 - Disguised behind a friendly-looking Python CLI
@@ -52,7 +52,7 @@ This tool aims to:
 - Teach how reverse shells work in real-world setups
 - Serve as a meme-worthy portfolio project
 - Make your cybersecurity professors laugh nervously
-- Make friends laugh, cry, maybe scream into a pillow — and Rickroll them while you’re at it.
+- Make friends laugh, cry, maybe scream into a pillow and Rickroll them while you’re at it.
 
   
 ---
@@ -132,7 +132,7 @@ This tool aims to:
 
 - ☑️ No persistence (we prank, not haunt)
 - ☑️ No data theft or spying (we ain’t the NSA)
-- ☑️ No real damage — only digital therapy sessions
+- ☑️ No real damage, only digital therapy sessions
 - ☑️ Reveal the prank soon (or your karma will download a reverse shell on you)
 - ☑️ Never use on someone without **consent** (seriously, don’t be that guy)
 
@@ -162,7 +162,7 @@ This tool aims to:
 
 > **IMPORTANT:** For this prank/educational tool to work, **you and your target must be on the same network** (e.g., college Wi-Fi, LAN party, cursed hostel internet).  
 
-> Netcat operates over **local IP addresses** unless you're routing through public ports with port forwarding — which we’re *not doing here* (because jail is not part of the prank).
+> Netcat operates over **local IP addresses** unless you're routing through public ports with port forwarding which we’re *not doing here* (because jail is not part of the prank).
 
 > If you run this on your professor, boss, or crush — we salute your bravery and recommend a lawyer.
 
@@ -176,7 +176,7 @@ Detection results can vary based on the antivirus engine, configuration, and upd
 
 ## 👀 Hidden Bonus (for the real ones who scroll to the bottom)
 
-If you made it this far — congrats, legend.  
+If you made it this far congrats, legend.  
 You’re now officially certified in:
 
 - ✔️ Cyberprank Literacy  
@@ -188,4 +188,4 @@ you’ve earned your stripes, your badge, and possibly a cease-and-desist from I
 
 Stay chaotic, stay ethical. 💻💅
 
-— *PookieSec Ops Out.*
+- *PookieSec Ops Out.*
