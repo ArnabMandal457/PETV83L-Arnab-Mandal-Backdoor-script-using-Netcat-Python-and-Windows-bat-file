@@ -5,7 +5,7 @@
 
 > 🚨 TL;DR: This tool is a local network educational reverse shell simulator designed to teach security awareness and social engineering vulnerabilities. No real exploitation. No persistence. No remote IP targeting.
 > 
-> ⚠️ **Disclaimer: This tool is for educational and ethical purposes only. Use responsibly. If you end up grounded, disowned, or expelled — that’s on you.**
+> ⚠️ **Disclaimer: This tool is for educational and ethical purposes only. Use responsibly. If you end up grounded, disowned, or expelled, that’s on you.**
 
 ---
 
@@ -28,7 +28,7 @@ It's a prank tool wrapped in charm **cute on the outside, spooky on the inside**
 
 - Uses `netcat` for remote shell access (with full user control)
 - Disguised behind a friendly-looking Python CLI
-- An educational simulation that demonstrates how **vulnerable behavior** (like running random executables) can lead to unauthorized access — shown through a safe local network demo.
+- An educational simulation that demonstrates how **vulnerable behavior** (like running random executables) can lead to unauthorized access, shown through a safe local network demo.
 - Perfect for ethical demos, cybersecurity training, and… *light mischief*.
 
 ---
@@ -64,7 +64,7 @@ This tool aims to:
 3. Wait for the target to run the file.
 4. Connect to the shell:
 
-   Okay, we’re getting a bit technical here. Buckle up and read each line like your life depends on it — because if you mess this up and your friend gets sus, you might end up on the next ride in the prison bus.
+   Okay, we’re getting a bit technical here. Buckle up and read each line like your life depends on it because, if you mess this up and your friend gets sus, you might end up on the next ride in the prison bus.
    
 - **On target machine (Runs automatically with python script i.e. `main.py`)**.
    ```bash
@@ -84,13 +84,13 @@ This tool aims to:
     
    - Windows users can download `netcat` tool from [this repository](https://github.com/int0x33/nc.exe/)
    - In Linux, the netcat comes preinstalled.
-   - here by `4444` we mean the port used for creating the backdoor — and in our case, it’s `4444`.. If required, port number can be changed in the `backdoor.bat` file accordingly.
+   - here by `4444` we mean the port used for creating the backdoor, and in our case, it’s `4444`.. If required, port number can be changed in the `backdoor.bat` file accordingly.
      
    ---
 
    **NOTE:**
    
-   - You will need to know the target ip address beforehand. You can either use IP Loggers or do an `nmap` scan over the local network using the network id which can be obtained by the subnet mask and the ip address of your device.
+   - You will need to know the target IP address beforehand. You can either use IP Loggers or do an `nmap` scan over the local network using the network id, which can be obtained by the subnet mask and the IP address of your device.
    
    - If you are on a virtual machine, it is recommended to perform an `nmap` scan on your host machine since virtual machine results are not accurate.
    
